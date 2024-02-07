@@ -1,0 +1,28 @@
+{
+	"private": true,
+	"name": "src",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Jau2002/resume.git"
+	},
+	"author": "Jau2002 <idamendjaume@gmail.com> (https://www.linkedin.com/in/jaumesuarez)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Jau2002/resume/issues"
+	},
+	"homepage": "https://github.com/Jau2002/resume#readme",
+	"dependencies": {
+		"astro": "4.3.5",
+		"@astrojs/check": "0.4.1",
+		"typescript": "5.3.3"
+	}
+}
