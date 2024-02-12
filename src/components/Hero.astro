@@ -1,6 +1,6 @@
 ---
+import Media from '@/components/Media.astro'
 import Wrapper from '@/containers/Wrapper.astro'
-import contacts from '@/helpers/contact-me'
 import { basics } from '@/static/resume-es.json'
 
 const { name, label, location, image } = basics
@@ -13,22 +13,7 @@ const { city, region } = location
 			<h1 class="hero__title">{name}</h1>
 			<h2 class="hero__subheading">{label}</h2>
 			<span class="hero__location">{city}, {region}</span>
-			<nav class="contact">
-				{
-					contacts.map(({ reference, context, resource, container }) => (
-						<a
-							class="contact__reference"
-							href={reference}
-							title={context}
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img src={resource} alt={container} width="20px" height="20px" />
-							{container}
-						</a>
-					))
-				}
-			</nav>
+			<Media />
 		</div>
 		<figure class="photo">
 			<img src={image} alt={name} width="128px" />
@@ -70,34 +55,6 @@ const { city, region } = location
 		gap: 0.25rem;
 		font-size: 0.85rem;
 		letter-spacing: -0.05rem;
-	}
-
-	.contact {
-		color: #555;
-		font-size: 0.65rem;
-		display: flex;
-		gap: 4px;
-		margin-top: 8px;
-	}
-
-	.contact__reference {
-		color: #777;
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		border: 1px solid #eee;
-		padding: 5px;
-		border-radius: 6px;
-		transition: all 0.3s ease;
-	}
-
-	.contact__reference:hover {
-		background: #eee;
-		border: 1px solid #ddd;
-	}
-
-	.contact img {
-		margin-right: 5px;
 	}
 
 	.photo img {

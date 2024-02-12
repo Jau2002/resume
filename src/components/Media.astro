@@ -1,0 +1,50 @@
+---
+import contacts from '@/helpers/contact-me'
+---
+
+<nav class="contact">
+	{
+		contacts.map(({ reference, context, resource, container }) => (
+			<a
+				class="contact__reference"
+				href={reference}
+				title={context}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img src={resource} alt={container} width="20px" height="20px" />
+				{container}
+			</a>
+		))
+	}
+</nav>
+
+<style>
+	.contact {
+		color: #555;
+		font-size: 0.65rem;
+		display: flex;
+		gap: 4px;
+		margin-top: 8px;
+	}
+
+	.contact__reference {
+		color: #777;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid #eee;
+		padding: 5px;
+		border-radius: 6px;
+		transition: all 0.3s ease;
+	}
+
+	.contact__reference:hover {
+		background: #eee;
+		border: 1px solid #ddd;
+	}
+
+	.contact img {
+		margin-right: 5px;
+	}
+</style>
