@@ -1,0 +1,10 @@
+---
+import Wrapper from '@/containers/Wrapper.astro'
+import { basics } from '@/static/resume-es.json'
+
+const { summary } = basics
+---
+
+<Wrapper title="Sobre Mi">
+	<p>{summary}</p>
+</Wrapper>
