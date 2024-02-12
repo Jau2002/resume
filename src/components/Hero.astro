@@ -31,7 +31,7 @@ const { city, region } = location
 			</nav>
 		</div>
 		<figure class="photo">
-			<img src={image} alt={name} />
+			<img src={image} alt={name} width="128px" />
 		</figure>
 	</article>
 </Wrapper>
@@ -96,10 +96,13 @@ const { city, region } = location
 		border: 1px solid #ddd;
 	}
 
+	.contact img {
+		margin-right: 5px;
+	}
+
 	.photo img {
 		aspect-ratio: 1 / 1;
 		object-fit: cover;
-		width: 128px;
 		border-radius: 16px;
 	}
 
