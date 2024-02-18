@@ -2,14 +2,14 @@ import { basics } from '@/static/resume-es.json'
 
 const { name, email, profiles } = basics
 
-interface Contacts {
+interface Ref {
 	reference: string
 	context: string
 	resource: string
 	container: string
 }
 
-const contacts: Contacts[] = [
+export const contacts: Ref[] = [
 	{
 		reference: `mailto:${email}`,
 		context: `Enviar correo electrónico a ${name} al correo ${email}`,
@@ -17,7 +17,7 @@ const contacts: Contacts[] = [
 		container: email,
 	},
 	...profiles.map(
-		({ url, network, username }): Contacts => ({
+		({ url, network, username }): Ref => ({
 			reference: url,
 			context: `Visitar el perfil de ${name} en ${network}`,
 			resource: `public/icons/${network}.svg`,
@@ -25,5 +25,3 @@ const contacts: Contacts[] = [
 		})
 	),
 ]
-
-export default contacts
