@@ -2,11 +2,10 @@
 import contacts from '@/helpers/contact-me'
 ---
 
-<nav class="contact">
+<nav>
 	{
 		contacts.map(({ reference, context, resource, container }) => (
 			<a
-				class="contact__reference"
 				href={reference}
 				title={context}
 				target="_blank"
@@ -20,7 +19,7 @@ import contacts from '@/helpers/contact-me'
 </nav>
 
 <style>
-	.contact {
+	nav {
 		color: #555;
 		font-size: 0.65rem;
 		display: flex;
@@ -28,7 +27,7 @@ import contacts from '@/helpers/contact-me'
 		margin-top: 8px;
 	}
 
-	.contact__reference {
+	a {
 		color: #777;
 		display: inline-flex;
 		align-items: center;
@@ -39,12 +38,12 @@ import contacts from '@/helpers/contact-me'
 		transition: all 0.3s ease;
 	}
 
-	.contact__reference:hover {
+	a:hover {
 		background: #eee;
 		border: 1px solid #ddd;
 	}
 
-	.contact img {
+	nav img {
 		margin-right: 5px;
 	}
 </style>

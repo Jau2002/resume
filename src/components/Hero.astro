@@ -8,21 +8,21 @@ const { city, region } = location
 ---
 
 <Wrapper>
-	<article class="hero">
+	<article>
 		<div>
-			<h1 class="hero__title">{name}</h1>
-			<h2 class="hero__subheading">{label}</h2>
-			<span class="hero__location">{city}, {region}</span>
+			<h1>{name}</h1>
+			<h2>{label}</h2>
+			<span>{city}, {region}</span>
 			<Media />
 		</div>
-		<figure class="photo">
+		<figure>
 			<img src={image} alt={name} width="128px" />
 		</figure>
 	</article>
 </Wrapper>
 
 <style>
-	.hero {
+	article {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -37,18 +37,18 @@ const { city, region } = location
 		padding-right: 32px;
 	}
 
-	.hero__title {
+	h1 {
 		font-size: 2rem;
 	}
 
-	.hero__subheading {
+	h2 {
 		color: #444;
 		font-weight: 500;
 		font-size: 1.1rem;
 		text-wrap: balance;
 	}
 
-	.hero__location {
+	span {
 		color: #666;
 		display: flex;
 		align-items: center;
@@ -57,7 +57,7 @@ const { city, region } = location
 		letter-spacing: -0.05rem;
 	}
 
-	.photo img {
+	figure img {
 		aspect-ratio: 1 / 1;
 		object-fit: cover;
 		border-radius: 16px;
@@ -68,21 +68,21 @@ const { city, region } = location
 			flex-direction: column-reverse;
 		}
 
-		.hero {
+		article {
 			justify-content: center;
 			align-items: center;
 			padding-right: 0;
 			text-align: center;
 		}
 
-		.photo {
+		figure {
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			margin: 0 auto;
 		}
 
-		.hero__subheading {
+		h2 {
 			text-wrap: balance;
 		}
 	}
