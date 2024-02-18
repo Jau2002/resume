@@ -110,6 +110,20 @@ const { title } = Astro.props
 		display: inline;
 	}
 
+	.print {
+		display: none !important;
+	}
+
+	@media print {
+		.no-print {
+			display: none !important;
+		}
+
+		.print {
+			display: block !important;
+		}
+	}
+
 	astro-dev-toolbar {
 		display: none !important;
 	}

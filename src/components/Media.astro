@@ -5,15 +5,20 @@ import contacts from '@/helpers/contact-me'
 <nav>
 	{
 		contacts.map(({ reference, context, resource, container }) => (
-			<a
-				href={reference}
-				title={context}
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				<img src={resource} alt={container} width="20px" height="20px" />
-				{container}
-			</a>
+			<>
+				<footer class="print">{`${reference.replace('mailto:', '')}`}</footer>
+				<footer class="no-print">
+					<a
+						href={reference}
+						title={context}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img src={resource} alt={container} width="20px" height="20px" />
+						{container}
+					</a>
+				</footer>
+			</>
 		))
 	}
 </nav>
