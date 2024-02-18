@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"name": "src",
+	"name": "resume",
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
@@ -21,8 +21,11 @@
 	},
 	"homepage": "https://github.com/Jau2002/resume#readme",
 	"dependencies": {
-		"astro": "4.3.5",
 		"@astrojs/check": "0.4.1",
+		"astro": "4.3.5",
+		"hotkeypad": "0.1.0",
+		"just-capitalize": "3.2.0",
+		"ninja-keys": "1.2.2",
 		"typescript": "5.3.3"
 	}
 }
