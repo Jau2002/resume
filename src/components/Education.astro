@@ -1,0 +1,71 @@
+---
+import Section from '@/containers/Wrapper.astro'
+
+import { institutions } from '@/helpers/date-parse'
+---
+
+<Section title="Educación">
+	<ul>
+		{
+			institutions.map(({ institution, startDate, endDate, area, url }) => (
+				<li>
+					<article>
+						<header>
+							<div>
+								<h3>
+									<a
+										href={url}
+										title={`Ir a la intitución ${institution}`}
+										target="_blank"
+									>
+										{institution}
+									</a>
+								</h3>
+							</div>
+							<time>
+								{endDate != null
+									? `${startDate} - ${endDate}`
+									: `${startDate} - Actual`}
+							</time>
+						</header>
+						<footer>
+							<p>{area}</p>
+						</footer>
+					</article>
+				</li>
+			))
+		}
+	</ul>
+</Section>
+
+<style>
+	ul {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+	}
+
+	article h3 {
+		font-weight: 500;
+		color: #111;
+	}
+
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom: 4px;
+	}
+
+	time {
+		color: #555;
+		font-size: 0.85rem;
+		min-width: 102px;
+	}
+
+	@media (width <= 700px) {
+		time {
+			text-align: right;
+		}
+	}
+</style>

@@ -1,4 +1,4 @@
-import { work } from '@/static/resume-es.json'
+import { education, work } from '@/static/resume-es.json'
 import capitalize from 'just-capitalize'
 
 function normaliceDate(time: string): string {
@@ -19,4 +19,10 @@ export const works = work.map((experience) => ({
 	startDate: normaliceDate(experience.startDate),
 	endDate:
 		experience.endDate != null ? normaliceDate(experience.endDate) : null,
+}))
+
+export const institutions = education.map((entity) => ({
+	...entity,
+	startDate: normaliceDate(entity.startDate),
+	endDate: entity.endDate != null ? normaliceDate(entity.endDate) : null,
 }))

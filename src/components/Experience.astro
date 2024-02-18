@@ -18,7 +18,9 @@ import { works } from '@/helpers/date-parse'
 							<h4>{position}</h4>
 						</div>
 						<time>
-							{endDate != null ? `${startDate} - ${endDate}` : startDate}
+							{endDate != null
+								? `${startDate} - ${endDate}`
+								: `${startDate} - Actual`}
 						</time>
 					</header>
 					<footer>
@@ -65,12 +67,6 @@ import { works } from '@/helpers/date-parse'
 	time {
 		color: #555;
 		font-size: 0.85rem;
-	}
-
-	time :not(:first-child) {
-		color: #555;
-		font-size: 0.85rem;
-		min-width: 102px;
 	}
 
 	@media (width <= 700px) {
