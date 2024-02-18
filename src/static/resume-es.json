@@ -1,0 +1,277 @@
+{
+	"basics": {
+		"name": "Jaume Suárez Molina",
+		"label": "Ingeniero de sistemas en proceso, entusiasta como desarrollador Full Stack con más de 1 años de experiencia especializado en Backend",
+		"image": "public/img/Photo.JPG",
+		"email": "santjaume02@gmail.com",
+		"url": "",
+		"summary": "+1 años de experiencia como Desarrollador Web. Actualmente ingeniero de sistemas en proceso. Vivo en Bogota, Colombia. Persigo la excelencia lingüística en inglés. Mi esencia: comunicación asertiva, colaborar en equipo para esculpir soluciones disruptivas y escalables en el universo digital, trasciendo fronteras tecnológicas.",
+		"location": {
+			"address": "",
+			"postalCode": "111621",
+			"city": "Bogotá",
+			"countryCode": "CO",
+			"region": "Colombia"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "jaumesuarez",
+				"url": "linkedin.com/in/jaumesuarez"
+			},
+			{
+				"network": "GitHub",
+				"username": "Jau2002",
+				"url": "github.com/Jau2002"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Optivision",
+			"position": "Full Stack Engineer",
+			"url": "https://twitch.tv/midudev",
+			"startDate": "2023-06-01",
+			"endDate": null,
+			"summary": "Cree un panel de control intuitivo que permita a los usuarios administrar eficientemente su tienda en línea. Apliqué algoritmos de inteligencia artificial para ofrecer recomendaciones personalizadas a los clientes, mejorando así su experiencia de compra. Diseñé una interfaz de usuario receptiva y moderna que facilita la navegación y la realización de acciones clave, como la gestión de pedidos, el seguimiento de envíos y la generación de informes de ventas. Opté por integraciones fluidas con servicios de pago.",
+			"highlights": [
+				"Dashboard",
+				"Experiencia de usuario",
+				"Integraciones de pago",
+				"Inventario"
+			]
+		},
+		{
+			"name": "Henry Tech",
+			"position": "Full Stack developer",
+			"url": "soyhenry.com",
+			"startDate": "2022-06-01",
+			"endDate": "2023-01-27",
+			"summary": "Diseñar un sólido pipeline de CI/CD para reducir hasta un 45% las revisiones de pull requests. Formar un grupo de desarrollo enfocado en code reviews y la adhesión a buenas prácticas, incluyendo commits convencionales, clean code y los principios SOLID, para impulsar una infraestructura robusta. Fortalecer y reestructurar la implementación de un sistema de cesta de compras, establecer una automatización eficiente para un generador de correos masivos y concebir un enfoque innovador para una pasarela de pagos confiable.",
+			"highlights": ["Started the company"]
+		}
+	],
+	"volunteer": [
+		{
+			"organization": "Organization",
+			"position": "Volunteer",
+			"url": "https://organization.com/",
+			"startDate": "2012-01-01",
+			"endDate": "2013-01-01",
+			"summary": "Description…",
+			"highlights": ["Awarded 'Volunteer of the Month'"]
+		}
+	],
+	"education": [
+		{
+			"institution": "Universidad El Bosque",
+			"url": "unbosque.edu.co",
+			"area": "Ingeniero de Sistemas",
+			"studyType": "proceso",
+			"startDate": "2023-08-01",
+			"endDate": null,
+			"score": "4.0",
+			"courses": ["DB1101 - Basic SQL"]
+		},
+		{
+			"institution": "Smart Academia de Idiomas",
+			"url": "smart.edu.co",
+			"area": "Ingles A1",
+			"studyType": "proceso",
+			"startDate": "2023-01-01",
+			"endDate": null,
+			"score": "4.0",
+			"courses": ["A1"]
+		}
+	],
+	"awards": [
+		{
+			"title": "Award",
+			"date": "2014-11-01",
+			"awarder": "Company",
+			"summary": "There is no spoon."
+		}
+	],
+	"certificates": [
+		{
+			"name": "Full Stack Web Developer",
+			"date": "2023-01-29",
+			"issuer": "Henry",
+			"url": "https://certificates.soyhenry.com/cert?id=78bf6be7-46f6-4d40-b07e-2bc94de7e760"
+		}
+	],
+	"publications": [
+		{
+			"name": "Publication",
+			"publisher": "Company",
+			"releaseDate": "2014-10-01",
+			"url": "https://publication.com",
+			"summary": "Description…"
+		}
+	],
+	"skills": [
+		{
+			"name": "HTML",
+			"level": "Master",
+			"keywords": ["Desarrollo Web", "Frontend"]
+		},
+		{
+			"name": "CSS",
+			"level": "Master",
+			"keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+		},
+		{
+			"name": "JavaScript",
+			"level": "Master",
+			"keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+		},
+		{
+			"name": "Tailwind",
+			"level": "Avanzado",
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"CSS Framework",
+				"Diseño Responsive"
+			]
+		},
+		{
+			"name": "TypeScript",
+			"level": "Avanzado",
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"Backend",
+				"JavaScript Superset"
+			]
+		},
+		{
+			"name": "Node",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+		},
+		{
+			"name": "PostgreSQL",
+			"level": "Avanzado",
+			"keywords": [
+				"Bases de Datos",
+				"SQL",
+				"Almacenamiento de Datos",
+				"Backend"
+			]
+		},
+		{
+			"name": "Git",
+			"level": "Avanzado",
+			"keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+		},
+		{
+			"name": "GitHub",
+			"level": "Avanzado",
+			"keywords": [
+				"Control de Versiones",
+				"Colaboración",
+				"Código Fuente",
+				"Git"
+			]
+		},
+		{
+			"name": "Next.js",
+			"level": "Avanzado",
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"React Framework",
+				"SSR",
+				"Static Generation"
+			]
+		},
+		{
+			"name": "React",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+		}
+	],
+	"languages": [
+		{
+			"language": "Español",
+			"fluency": "Hablante Nativo"
+		},
+		{
+			"language": "Ingles",
+			"fluency": "Intermedio"
+		}
+	],
+	"interests": [
+		{
+			"name": "Wildlife",
+			"keywords": ["Ferrets", "Unicorns"]
+		}
+	],
+	"references": [
+		{
+			"name": "Jane Doe",
+			"reference": "Reference…"
+		}
+	],
+	"projects": [
+		{
+			"name": "Micro-servicio",
+			"isActive": false,
+			"description": "La API es un micro-servicio que gestiona información de empleados y departamentos, permitiendo operaciones como crear, actualizar, y eliminar datos",
+			"highlights": [
+				"API",
+				"TypeScript",
+				"Docker",
+				"escalabilidad",
+				"PostgreSQL"
+			],
+			"github": "github.com/Jau2002/employee-microservice"
+		},
+		{
+			"name": "biblioteca API",
+			"isActive": false,
+			"description": "Comercio electrónico para la venta de libros gestiona inventario, vende, compra, registra usuarios, crea perfiles de usuario y permite la autenticación de los usuarios.",
+			"highlights": [
+				"JWT",
+				"Autenticación",
+				"Prisma",
+				"Cesta de compras",
+				"TypeScript"
+			],
+			"url": "github.com/Jau2002/api-e-commerce-library",
+			"github": "github.com/Jau2002/api-e-commerce-library"
+		},
+		{
+			"name": "Finance Planner APP",
+			"isActive": true,
+			"description": "La aplicación es una herramienta diseñada para ayudarte a organizar y gestionar tus finanzas personales de manera eficiente.",
+			"highlights": ["CI/CD", "Node", "Schemas", "swagger-ui"],
+			"github": "github.com/Jau2002/finance-planner-app",
+			"url": "finance-planner-api.onrender.com"
+		},
+		{
+			"name": "Contactos",
+			"isActive": false,
+			"description": "La app de contactos organiza y guarda información importante para mantenerse conectado con amigos y colegas.",
+			"highlights": ["React", "Redux", "Nest.js", "Sass"],
+			"url": "github.com/Jau2002/Contact",
+			"github": "github.com/Jau2002/Contact"
+		},
+		{
+			"name": "Paper Api",
+			"isActive": true,
+			"description": "La API de papers es un servicio que proporciona información sobre documentos académicos.",
+			"highlights": ["Bash", "Scripting", "Python", "MongoDB", "FastAPI"],
+			"url": "github.com/Jau2002/paper-api",
+			"github": "github.com/Jau2002/paper-api"
+		},
+		{
+			"name": "Juego de la Serpiente",
+			"description": "clásico juego de arcade en el que controlas una serpiente que se mueve por la pantalla y debe recolectar comida para crecer.",
+			"highlights": ["Java", "Git", "GitHub", "MVC"],
+			"url": "github.com/Jau2002/snake-game",
+			"github": "github.com/Jau2002/snake-game"
+		}
+	]
+}
