@@ -20,10 +20,6 @@ jobs:
       - name: Bundle
         run: bun run build
 
-  deploy:
-    needs: [build]
-    runs-on: ubuntu-22.04
-    steps:
       - name: Checkout code repository
         uses: actions/checkout@v3
         with:
