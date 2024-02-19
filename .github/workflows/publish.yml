@@ -20,10 +20,8 @@ jobs:
       - name: Bundle
         run: bun run build
 
-      - name: Checkout code repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+      - name: Display contents of dist directory
+        run: ls -l dist
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2.0
