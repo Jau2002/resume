@@ -2,6 +2,8 @@
 import 'hotkeypad/reset.css'
 import 'hotkeypad/index.css'
 import { basics } from '@/static/resume-es.json'
+import { Image } from 'astro:assets'
+import Printer from '@/assets/icons/printer.svg'
 
 const { profiles } = basics
 
@@ -50,7 +52,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
 </footer>
 
 <div id="footer-button" class="no-print">
-	<img src="public/icons/button.svg" />
+	<Image src={Printer} alt="" />
 </div>
 
 <div

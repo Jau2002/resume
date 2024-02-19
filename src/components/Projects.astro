@@ -1,6 +1,8 @@
 ---
+import GitHub from '@/assets/icons/GitHub.svg'
 import Wrapper from '@/containers/Wrapper.astro'
 import { projects } from '@/static/resume-es.json'
+import { Image } from 'astro:assets'
 ---
 
 <Wrapper title="Proyectos">
@@ -23,11 +25,11 @@ import { projects } from '@/static/resume-es.json'
 											rel="noopener noreferrer"
 											class="no-print"
 										>
-											<img
-												src="public/icons/GitHub.svg"
-												title={`ver más proyeto ${name} en Github`}
-												width="20px"
-												height="20px"
+											<Image
+												src={GitHub}
+												alt={`ver más proyeto ${name} en Github`}
+												width="20"
+												height="20"
 											/>
 										</a>
 									)}

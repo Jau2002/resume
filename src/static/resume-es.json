@@ -2,7 +2,7 @@
 	"basics": {
 		"name": "Jaume Suárez Molina",
 		"label": "Ingeniero de sistemas en proceso, entusiasta como desarrollador Full Stack con más de 1 años de experiencia especializado en Backend",
-		"image": "public/img/Photo.JPG",
+		"image": "/src/assets/img/Photo.jpg",
 		"email": "santjaume02@gmail.com",
 		"url": "",
 		"summary": "+1 años de experiencia como Desarrollador Web. Actualmente ingeniero de sistemas en proceso. Vivo en Bogota, Colombia. Persigo la excelencia lingüística en inglés. Mi esencia: comunicación asertiva, colaborar en equipo para esculpir soluciones disruptivas y escalables en el universo digital, trasciendo fronteras tecnológicas.",
