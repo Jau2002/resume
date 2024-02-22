@@ -1,9 +1,11 @@
 ---
+import photo from '@/assets/img/Photo.jpg'
 import Media from '@/components/Media.astro'
 import Wrapper from '@/containers/Wrapper.astro'
 import { basics } from '@/static/resume-es.json'
+import { Image } from 'astro:assets'
 
-const { name, label, location, image } = basics
+const { name, label, location } = basics
 const { city, region } = location
 ---
 
@@ -16,7 +18,7 @@ const { city, region } = location
 			<Media />
 		</div>
 		<figure>
-			<img src={image} alt={name} width="269" />
+			<Image src={photo} alt={name} width="256" height="142" />
 		</figure>
 	</article>
 </Wrapper>

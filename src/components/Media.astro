@@ -1,10 +1,12 @@
 ---
+import images from '@/helpers/caching'
 import { contacts } from '@/helpers/contact-me'
+import { Image } from 'astro:assets'
 ---
 
 <nav>
 	{
-		contacts.map(({ reference, context, resource, container }) => (
+		contacts.map(({ reference, context, container }, index: number) => (
 			<>
 				<footer class="print">{`${reference.replace('mailto:', '')}`}</footer>
 				<footer class="no-print">
@@ -14,7 +16,7 @@ import { contacts } from '@/helpers/contact-me'
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src={resource} alt={container} width="20" height="20" />
+						<Image src={images[index]} alt={container} width="20" height="20" />
 						{container}
 					</a>
 				</footer>
