@@ -4,7 +4,8 @@
 		"label": "Ingeniero de sistemas en proceso, entusiasta como desarrollador Full Stack con más de 1 años de experiencia especializado en Backend",
 		"email": "santjaume02@gmail.com",
 		"url": "",
-		"summary": "+1 años de experiencia como Desarrollador Web. Actualmente ingeniero de sistemas en proceso. Vivo en Bogota, Colombia. Persigo la excelencia lingüística en inglés. Experto en TypeScript, Node.js, Next.js, React, PostgreSQL, MongoDB, con conocimiento en Python, FastAPI, Java, MySQL. Mi travesía abarca en Git, metodologías ágiles, CI/CD y Docker",
+		"phone": "3125047788",
+		"summary": "Soy apasionado por el mundo del desarrollo web y un eterno aprendiz. Vivo en Bogotá, Colombia, y estoy en constante búsqueda de oportunidades para crecer y desafiarme a mí mismo, tengo una gran determinación y una mentalidad autónoma. Poseo conocimiento en TypeScript, Node.js, Next.js, React, PostgreSQL, MongoDB, ademas en Python, FastAPI, Java, MySQL. Mi travesía abarca en Git, metodologías ágiles, CI/CD y Docker. Estoy determinado a convertirme en un profesional excepcional y estoy emocionado por las oportunidades que el futuro me depara.",
 		"location": {
 			"address": "",
 			"postalCode": "111621",
@@ -16,12 +17,12 @@
 			{
 				"network": "LinkedIn",
 				"username": "jaumesuarez",
-				"url": "linkedin.com/in/jaumesuarez"
+				"url": "http://linkedin.com/in/jaumesuarez"
 			},
 			{
 				"network": "GitHub",
 				"username": "Jau2002",
-				"url": "github.com/Jau2002"
+				"url": "https://github.com/Jau2002"
 			}
 		]
 	},
@@ -29,7 +30,7 @@
 		{
 			"name": "Optivision",
 			"position": "Full Stack Engineer",
-			"url": "https://twitch.tv/midudev",
+			"url": "",
 			"startDate": "2023-06-01",
 			"endDate": null,
 			"summary": "Cree un panel de control intuitivo que permita a los usuarios administrar eficientemente su tienda en línea. Apliqué algoritmos de inteligencia artificial para ofrecer recomendaciones personalizadas a los clientes, mejorando así su experiencia de compra. Diseñé una interfaz de usuario receptiva y moderna que facilita la navegación y la realización de acciones clave, como la gestión de pedidos, el seguimiento de envíos y la generación de informes de ventas. Opté por integraciones fluidas con servicios de pago.",
@@ -225,7 +226,7 @@
 				"escalabilidad",
 				"PostgreSQL"
 			],
-			"github": "github.com/Jau2002/employee-microservice"
+			"github": "https://github.com/Jau2002/employee-microservice"
 		},
 		{
 			"name": "biblioteca API",
@@ -238,39 +239,39 @@
 				"Cesta de compras",
 				"TypeScript"
 			],
-			"url": "github.com/Jau2002/api-e-commerce-library",
-			"github": "github.com/Jau2002/api-e-commerce-library"
+			"url": "https://github.com/Jau2002/api-e-commerce-library",
+			"github": "https://github.com/Jau2002/api-e-commerce-library"
 		},
 		{
 			"name": "Finance Planner APP",
 			"isActive": true,
 			"description": "La aplicación es una herramienta diseñada para ayudarte a organizar y gestionar tus finanzas personales de manera eficiente.",
 			"highlights": ["CI/CD", "Node", "Schemas", "swagger-ui"],
-			"github": "github.com/Jau2002/finance-planner-app",
-			"url": "finance-planner-api.onrender.com"
+			"github": "https://github.com/Jau2002/finance-planner-app",
+			"url": "https://finance-planner-api.onrender.com"
 		},
 		{
 			"name": "Contactos",
 			"isActive": false,
 			"description": "La app de contactos organiza y guarda información importante para mantenerse conectado con amigos y colegas.",
 			"highlights": ["React", "Redux", "Nest.js", "Sass"],
-			"url": "github.com/Jau2002/Contact",
-			"github": "github.com/Jau2002/Contact"
+			"url": "https://github.com/Jau2002/Contact",
+			"github": "https://github.com/Jau2002/Contact"
 		},
 		{
 			"name": "Paper Api",
 			"isActive": true,
 			"description": "La API de papers es un servicio que proporciona información sobre documentos académicos.",
 			"highlights": ["Bash", "Scripting", "Python", "MongoDB", "FastAPI"],
-			"url": "github.com/Jau2002/paper-api",
-			"github": "github.com/Jau2002/paper-api"
+			"url": "https://github.com/Jau2002/paper-api",
+			"github": "https://github.com/Jau2002/paper-api"
 		},
 		{
 			"name": "Juego de la Serpiente",
 			"description": "clásico juego de arcade en el que controlas una serpiente que se mueve por la pantalla y debe recolectar comida para crecer.",
 			"highlights": ["Java", "Git", "GitHub", "MVC"],
-			"url": "github.com/Jau2002/snake-game",
-			"github": "github.com/Jau2002/snake-game"
+			"url": "https://github.com/Jau2002/snake-game",
+			"github": "https://github.com/Jau2002/snake-game"
 		}
 	]
 }

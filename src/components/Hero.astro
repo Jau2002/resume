@@ -5,8 +5,8 @@ import Wrapper from '@/containers/Wrapper.astro'
 import { basics } from '@/static/resume-es.json'
 import { Image } from 'astro:assets'
 
-const { name, label, location } = basics
-const { city, region } = location
+const { name, label, location, phone } = basics
+const { city } = location
 ---
 
 <Wrapper>
@@ -14,10 +14,10 @@ const { city, region } = location
 		<div>
 			<h1>{name}</h1>
 			<h2>{label}</h2>
-			<span>{city}, {region}</span>
+			<span>{city}, {phone}</span>
 			<Media />
 		</div>
-		<figure>
+		<figure class="no-print">
 			<Image src={photo} alt={name} width="256" height="142" />
 		</figure>
 	</article>
