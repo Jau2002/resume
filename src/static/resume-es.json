@@ -5,7 +5,7 @@
 		"email": "santjaume02@gmail.com",
 		"url": "",
 		"phone": "3125047788",
-		"summary": "Soy apasionado por el mundo del desarrollo web y un eterno aprendiz. Vivo en Bogotá, Colombia, y estoy en constante búsqueda de oportunidades para crecer y desafiarme a mí mismo, tengo una gran determinación y una mentalidad autónoma. Poseo conocimiento en TypeScript, Node.js, Next.js, React, PostgreSQL, MongoDB, ademas en Python, FastAPI, Java, MySQL. Mi travesía abarca en Git, metodologías ágiles, CI/CD y Docker. Estoy determinado a convertirme en un profesional excepcional y estoy emocionado por las oportunidades que el futuro me depara.",
+		"summary": "Soy un desarrollador web apasionado con más de un año de experiencia en el diseño y mantenimiento de aplicaciones. He trabajado con tecnologías como Python y FastAPI para el backend, y React con TypeScript para el frontend, creando interfaces intuitivas y eficientes. También tengo experiencia en el uso de Laravel con PHP y SQL Server, donde optimicé la resolución de incidencias, reduciendo el tiempo de respuesta en un 20%. He implementado la eficiencia operativa en un 60% en procesos críticos, como la gestión del historial clínico en citas psicológicas. Mi enfoque en la gestión de proyectos incluye la realización de pruebas manuales, la coordinación con clientes para asegurar la satisfacción en la resolución de incidencias y la generación de reportes mensuales para mejorar la comunicación y el seguimiento.",
 		"location": {
 			"address": "",
 			"postalCode": "111621",
@@ -28,22 +28,41 @@
 	},
 	"work": [
 		{
-			"name": "Optivision",
-			"position": "Full Stack Engineer",
+			"name": "Enternova",
+			"position": "Desarrollador",
 			"url": "",
-			"startDate": "2023-06-01",
+			"startDate": "2024-05-12",
 			"endDate": null,
-			"summary": "Cree un panel de control intuitivo que permita a los usuarios administrar eficientemente su tienda en línea. Apliqué algoritmos de inteligencia artificial para ofrecer recomendaciones personalizadas a los clientes, mejorando así su experiencia de compra. Diseñé una interfaz de usuario receptiva y moderna que facilita la navegación y la realización de acciones clave, como la gestión de pedidos, el seguimiento de envíos y la generación de informes de ventas. Opté por integraciones fluidas con servicios de pago.",
+			"summary": "Mantenedor de aplicaciones, utilizando Laravel con PHP y SQL Server. Reduje en un 20% el tiempo de resolución de incidencias reportadas, optimizando la eficiencia del proceso. Realicé pruebas manuales antes de la implementación en producción, garantizando la calidad del software. Gestioné reuniones con el cliente para asegurar la resolución satisfactoria de las incidencias. Generé reportes mensuales que detallaban las incidencias tratadas y su estado en producción, mejorando la comunicación y el seguimiento de mejoras.",
 			"highlights": [
-				"Dashboard",
-				"Experiencia de usuario",
-				"Integraciones de pago",
-				"Inventario"
+				"PHP",
+				"Laravel",
+				"Testing",
+				"SQLserver",
+				"Gitlab",
+				"Integración",
+				"Git"
+			]
+		},
+		{
+			"name": "RIGHTEOUS SERVICIOS PSICOLÓGICOS",
+			"position": "Desarrollador full stack",
+			"url": "",
+			"startDate": "2023-02-01",
+			"endDate": "2024-03-15",
+			"summary": "Desarrollé una aplicación web utilizando Python con FastAPI para el backend y React con TypeScript para el frontend, creando una interfaz intuitiva y eficiente. Reduje en un 60% el tiempo necesario para completar el historial clínico en citas psicológicas, mejorando significativamente la eficiencia operativa. Aumenté en un 15% la cantidad de citas mensuales mediante una gestión más efectiva de los horarios y un sistema de recordatorio automatizado. Realicé la migración de datos a un sistema digital, mejorando la accesibilidad y el manejo de la información clínica.",
+			"highlights": [
+				"React",
+				"Python",
+				"TypeScript",
+				"PostgreSQL",
+				"Eficiencia",
+				"Automatización"
 			]
 		},
 		{
 			"name": "Henry Tech",
-			"position": "Full Stack developer",
+			"position": "Desarrollador full stack",
 			"url": "soyhenry.com",
 			"startDate": "2022-06-01",
 			"endDate": "2023-01-27",
